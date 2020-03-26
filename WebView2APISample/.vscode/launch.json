@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch webview debug",
+            "webRoot": "${workspaceFolder}",
+            "useWebView": "advanced",
+            "runtimeExecutable": "${workspaceFolder}\\x64\\Debug\\WebView2APISample.exe",
+            "trace": "verbose",
+            "urlFilter": "https://bing.com/*",
+            "port": 7777
+        }
+    ]
+}
