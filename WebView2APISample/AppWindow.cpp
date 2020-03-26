@@ -50,9 +50,9 @@ AppWindow::AppWindow(std::wstring initialUri, std::function<void()> webviewCreat
     ShowWindow(m_mainWindow, g_nCmdShow);
     UpdateWindow(m_mainWindow);
 
-    RunAsync([this] {
+    /*RunAsync([this] {
         InitializeWebView();
-    });
+    });*/
 }
 
 // Register the Win32 window class for the app window.
